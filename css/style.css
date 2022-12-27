@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500&display=swap');
+
+*{
+    font-family: 'Baloo 2', cursive;
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+}
+
+.headlogo{
+    width: 67px;
+    right: 0;
+    bottom: 12px;
+    left: 39px;
+    position: relative;
+    top: 2px;
+    border-radius: 14px;
+}
+.navbar{
+    width: 41%;
+    margin: auto;
+
+}
+
+.nav-list{
+    display: flex;
+    align-items: center;
+}
+
+.nav-list li {
+    list-style: none;
+}
+
+.nav-list li a{
+    margin: 0px 55px;
+    font-size: 19px;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-list li a:hover{
+    color: grey;
+}
+
+.container{
+    display: flex;
+}
+
+.left{
+    text-align: center;
+    width: 20%;
+    border-right: 2px solid grey;
+
+}
+.png{
+    margin: 3px 0px;
+    width: 138px;
+    border-radius: 70px;
+}
+
+.wiki{
+    font-size: 36px;
+    position: relative;
+    bottom: 16px;
+    right: 4px;
+
+}
+.para{
+    position: relative;
+    bottom: 31px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#search{
+    border-radius: 25px;
+    outline: none;
+    border: 2px solid rgb(34 9 9);
+    width: 96%;
+    padding: 2px 20px;
+    height: 48px;
+}
+
+.btn{
+    border: 2px solid rgb(34 9 9);
+    left: 104px;
+    background-color: grey;
+    position: relative;
+    font-size: 17px;
+    padding: 4px 13px;
+    margin: 9px 6px;
+    bottom: 52px;
+    border-radius: 25px;
+}
+
+.middle{
+    padding: 10px 20px;
+    width: 58%;
+    border-left: 2px solid grey ;
+    border-right: 2px solid grey ;
+}
+
+.middle h1{
+    font-size: 45px;
+    text-align: center;
+}
+.logo{
+    position: relative;
+    left: 30%;
+    width: 40%;
+    margin: 15px auto;
+}
+
+.right{
+    line-height: 30px;
+    width: 20%;
+    border-right: 2px solid grey;
+    border-left: 2px solid grey;
+}
+
+.anchor{
+    margin-left: 24px;
+    margin-top: 60px;
+}   
+
+span{
+    font-weight: bold;
+}
+
+.fimg{
+    margin: 9px 5px;
+    position: relative;;
+    left: 25%;
+    width: 50%;
+}
+.banner{
+    position: relative;
+    left: 35px;
+    width: 91%;
+}
+
+.quest{
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    top: 32px;
+}
